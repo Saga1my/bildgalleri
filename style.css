@@ -1,0 +1,46 @@
+body {
+   background-color: rgb(66, 62, 62);
+}
+
+.menu {
+  
+
+   display: grid;
+   grid-template-columns: 1fr 1fr 1fr 1fr;
+   place-items: center;
+   gap: 10px;
+}
+
+
+.menu-with-margin {
+ margin-top:20%;
+   display: grid;
+   grid-template-columns: 1fr 1fr 1fr 1fr;
+   place-items: center;
+   gap: 10px;
+}
+
+.gallery {
+   display: grid;
+   grid-template-columns: 1fr 1fr 1fr;
+   gap: 20px;
+
+
+}
+
+.gallery img {
+
+   width: 100%;
+}
+
+a {
+   color: aliceblue;
+   font-size: 48px;
+   text-decoration: none;
+}
+
+a:hover {
+
+   color: rgb(147, 171, 181);
+
+}
